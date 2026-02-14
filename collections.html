@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="collections.css">
+</head>
+
+<body>
+    <!-- Top discount slide -->
+    <div class="top-card">
+        <h3>Sign Up and <span>GET 20% OFF</span> for Your First Order</h3>
+        <i class="fa-solid fa-xmark" id="remove" style="cursor: pointer;"></i>
+    </div>
+    <!-- Nav Bar-1 -->
+    <section class="navbar">
+        <div class="navbar-head">
+            <h1 class="">Kdart-Shippings</h1>
+        </div>
+        <div class="navbar-options">
+            <a href="index.html">
+                <p>Home</p>
+            </a>
+            <a href="#arrivalsnav" style="display: none;">
+                <p>New-Arrival(Nav)</p>
+            </a>
+            <a href="#mostwanted-head " style="display: none;">
+                <p>Most-Wanted(Nav)</p>
+            </a>
+            <p>Collections</p>
+            <a href="contact.html">
+                <p>Contact-Us</p>
+            </a>
+        </div>
+    </section>
+    <!-- Checkbox Filters -->
+    <div class="checkcontainer">
+
+        <div class="divide-section">
+            <div class="filter-section">
+                <h3 class="filter-section-Men">Men</h3>
+                <div>
+                    <input type="checkbox" name="tags" value="Full Sleeve"> Full-Sleeve <br>
+                    <input type="checkbox" name="tags" value="Half Sleeve"> Off-Sleeve <br>
+                    <input type="checkbox" name="tags" value="Shirts"> Shirts
+                </div>
+
+                <h3 class="filter-section-Women"> Women </h3>
+                <div>
+                    <input type="checkbox" name="tags" value="Fashionaries"> Trending Collections <br>
+                    <input type="checkbox" name="tags" value="womens-Sports Wear"> Sports Wear
+                </div>
+                <hr class="vertical-line">
+            </div>
+
+            <div class="product-section">
+                <form class="navbar-search">
+                    <input type="search" placeholder="search" id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+
+                <div class="products" id="productcont">
+                    <div class="product-container" data-catogery="summer">
+                        <img src="./img/men-full_sleeve-01.jpg" alt="">
+                        <h2> Men Full Sleeve-olive</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/men-full_sleeve-02.jpg" alt="">
+                        <h2>Men Full Sleeve-Sandal</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/mens-halfsleeva-01.jpg" alt="">
+                        <h2>Men Half Sleeve-violet</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/mens-halfsleeva-02.jpg" alt="">
+                        <h2>Men Half Sleeve-Blue</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/mens-shirts-01.jpg" alt="">
+                        <h2>Men Shirts-Double Color</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/mens-shirts-02.jpg" alt="">
+                        <h2>Men Shirts- Pink</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/women-clthes-01.jpg" alt="">
+                        <h2>Women Fashionaries-violet</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/women-clothes-02.jpg" alt="">
+                        <h2>Women Fashionaries- Red</h2>
+                        <h3>₹399</h3>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/girls-sports-wear-02.jpg" alt="">
+                        <h2>Womens-Sports Wear(skinnyFits)</h2>
+                        <h3>₹399</h3>>
+                    </div>
+                    <div class="product-container">
+                        <img src="img/girls-sports-wear-01.jpg" alt="">
+                        <h2>Womens-sports Wear(Full Set)</h2>
+                        <h3>₹399</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="collections.js"></script>
+</body>
+
+</html>

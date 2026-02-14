@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    /* Top card ------------------------------->*/
+html{
+    scroll-behavior: smooth;
+}
+    .top-card{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-card span{
+    color: yellow;
+}
+    /* Navbar ------------------------------>*/
+.navbar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+.navbar-options{
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+.navbar-options p:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar-options p{
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+}
+.navbar-options a{
+    text-decoration: none;
+}
+.navbar-options a:visited{
+    color: inherit;
+}
+    /* Sale Banner Top--------------------> */
+.topbanner{
+    position: relative;
+}
+.topbanner-img img{
+    width: 100%;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.topbanner-btn{
+    position: absolute;
+    top: 80%;
+    right: 20%;
+}
+    /* Brands Collab */
+.brands{
+    margin-top: 10px;
+    padding: 10px;
+}
+    .brands-02 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /*I learned form chatgpt*/
+    gap: 20px;
+}
+.brands-02 h3{
+   text-align: center;
+   margin-top: 10px;
+}
+.brands-02 div{
+    padding: 30px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+    /* Customer Reviews heading */
+.cusreviews{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cusreviews-02 h3{
+    color: grey;
+}
+.cus-02{
+    display: none;
+    }
+    /* Customer Experiences */
+.expcontainer{
+    display: flex;
+}
+.expcontainer div{
+    background-color: #F2F4F7;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.expcontainer p{
+    margin-top: 10px;
+}
+    /* Shop Now sections */
+.shopnow{
+    margin-top: 10px;
+    padding: 10px;
+}
+.shopcontainer img{
+    height: 350px;
+    object-fit: cover;
+}
+.shopcontainer{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-top: 10px;
+    gap: 20px;
+}
+.shopcontainer button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.shopnow-contain{
+    position: relative;
+}
+.shopnow-contain button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 18%;
+    z-index: 2;
+     transition-property: all;   
+  transition-duration: 200ms; 
+  transition-timing-function: ease-in-out; 
+ }
+.shopnow-contain button:hover{
+    transform: scale(1.1);
+}
+.overlaypic{  
+    border-radius: 2%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+    opacity: 0.6;
+ }
+ /* Most wanted */
+#mostwanted-head{
+    padding: 10px;
+}
+ .most-wanted{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+    overflow-x: scroll;
+    gap: 20px;
+   
+    
+}
+
+.most-wanted-container{
+   position: relative; 
+}
+
+.most-wanted img{
+    border-radius: 2%;
+    height: 300px;
+    object-fit: cover;
+     
+ }
+
+ .sale-overlay{
+    position: absolute;
+    top:3px;
+    left: 3px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+ }
+
+ .most-wanted::-webkit-scrollbar {
+    appearance: none;
+    
+  }
+   
+.like-button{
+    position: absolute;
+    width: 15%;
+    bottom: 12%;
+    right: 5%;
+}
+    /* Footer Card */
+.footercard{
+    margin-top: 20px;
+    background-color: burlywood;
+    width: 100%;
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.footercard-img{
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+.footercard-img img{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.footercard-desc{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 40px;
+}
+.footercard-desc h1{
+    border-bottom: 20px;
+}
+.footercard-desc h2, button{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footercard-desc button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    transition-property: all;   
+  transition-duration: 200ms; 
+  transition-timing-function: ease-in-out; 
+}
+.footercard-desc button:hover{
+    transform: scale(1.1);
+}
+    /* Newsletter section*/
+.newsletter input{
+  border: 1px solid #000000;
+  margin-top: 12px;
+  width: 60%;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+}
+.newsletter input:focus {
+  border-color: #f97316;
+  box-shadow: 0 0 0 2px #f97316;
+}
+.newsletter button{
+  padding: 0.5rem;            
+  margin-top: 0.75rem;        
+  display: inline-block;      
+  background-color: #000000;   
+  color: #ffffff;             
+  font-weight: 700;           
+  border-radius: 0.5rem;   
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition-property: all;   
+  transition-duration: 200ms; 
+  transition-timing-function: ease-in-out; 
+}
+.newsletter button:hover {
+  transform: scale(1.1);     
+}
+ /* Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 60px 0 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #f4f4f4;
+}
+.footer-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #b0b0b0;
+    max-width: 500px; 
+}
+.footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+.handle {
+    display: block;
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 800px){
+
+}
+@media screen and (max-width: 600px){
+    .cusreviews{
+        display: none;
+    }
+    .expcontainer{
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+    .cus-02{
+        display: block;
+    }
+}
+
+
