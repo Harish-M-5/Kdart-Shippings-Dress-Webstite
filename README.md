@@ -1,8 +1,3 @@
-# Kdart-Shippings
-E-commerce frontend practice
-
----
-
 ## hosting link:
 https://kdartharish.netlify.app/
 
@@ -28,7 +23,6 @@ The website is fully responsive and works on desktop and mobile devices.
 ---
 
 ## ✨ Features
-- Responsive Design (Mobile + Desktop Friendly)
 - Branded Product Listings
 - Separate Sections for Boys & Girls
 - New Arrival and Most Wanted Categories
@@ -42,8 +36,7 @@ The website is fully responsive and works on desktop and mobile devices.
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
-- Responsive Web Design Principles
+- JavaScript 
 
 ---
 
