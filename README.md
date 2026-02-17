@@ -4,7 +4,7 @@ https://kdartharish.netlify.app/
 ---
 
 ## 🚀 Introduction
-- KDart Shippings is designed to simulate a real-world online dress shopping platform. The website provides a clean and interactive interface where users can explore trending and branded fashion collections for boys and girls.
+- KDart Shippings is designed to simulate a real-world online dress shopping platform. The website provides a clean and interactive interface where users can explore trending and branded fashion collections for boys and girls
 - The project demonstrates frontend development skills including responsive layouts, product listing design, navigation structure, and interactive elements using JavaScript.
 
 ---
